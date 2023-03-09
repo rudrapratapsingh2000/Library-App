@@ -42,6 +42,6 @@ public LibraryModel findByName(@PathVariable String name){
     //http://localhost:8080/api/v1/library-app/delete-library/id/{id}
 @DeleteMapping("/delete-library/id/{id}")
     public void deleteLibrary(@PathVariable int id){
-    libraryService.deleteLibrary(id);
+    libraryService.deleteLibrary(id) ;
 }
 }
